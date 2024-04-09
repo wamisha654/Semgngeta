@@ -1,0 +1,60 @@
+.about{
+	
+	background: url("prof.jpg") no-repeat center center;
+	
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+}
+.about-txt{
+	
+	
+	width: 50%;
+	max-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+    padding: 35px;
+}
+.about-txt p{
+ font-size: 22px;
+}
+@media screen and (max-width: 810px){
+  .about{
+
+    background: black;	
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.about-txt{
+	
+	height: 80%;
+	width: 80%;
+	display: flex;
+	align-content: flex-end;
+}
+  .about-txt p{
+  	font-size: 13px;
+  }
+  .about-txt h1{
+  	font-size: 17px;
+  }
+  .abt-img{
+  	height: 500px;
+  	width: 300px;
+  	background-color: white;
+  	background: url("giya.JPG") no-repeat center center;
+  	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+}

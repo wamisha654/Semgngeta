@@ -1,0 +1,101 @@
+.Portfolio{
+ 
+ width: 100%;
+}
+.trailer-liya{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background-image: url("liya.jpg");
+ background-size: cover;
+}
+.wanaw button{
+	width: 20%;
+	margin-top: 3rem;
+}
+.wanaw{
+	color: white;
+	width: 45%;
+	margin: 5rem;
+	padding-top: 15rem;
+}
+.wanaw h2{
+	font-size: 50px;
+	font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.wanaw p{
+	font-size: 17px;
+}
+.trailer-lijes{
+	height: 100vh;
+	background-image: url("lijesp.jpg");
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    color: black;
+}
+@media screen and (max-width: 1110px){
+ .wanaw h2{
+		font-size: 40px;
+	}
+	.trailer-liya{
+		background-image: url("lliya.jpg");
+	}
+	.trailer-lijes{
+		background-image: url("llijesp.jpg");
+	}
+	.wanaw button{
+	 width: 10rem;
+	 height: 90px;
+	 }
+
+}
+@media screen and (max-width: 1300px){
+ .trailer-lijes{
+		background-image: url("llijesp.jpg");
+	}
+ .trailer-liya{
+		background-image: url("lliya.jpg");
+	}	
+
+  .wanaw button{
+	 width: 10rem;
+	 height: 90px;
+	 }	
+
+
+}
+@media screen and (max-width: 810px){
+
+	.wanaw h2{
+		font-size: 30px;
+		color: #48D1CC;
+	}
+	.trailer-liya{
+		background-image: url("lliya.jpg");
+	}
+	.wanaw button{
+	 width: 8rem;
+	 height: 70px;
+	 }
+	.wanaw{
+	height: 100%;
+	width: 350px;
+	padding: 20px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.wanaw p{
+	font-size: 14px;
+}
+.trailer-lijes{
+		background-image: url("llijesp.jpg");
+	}
+}

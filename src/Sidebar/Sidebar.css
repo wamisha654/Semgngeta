@@ -1,0 +1,43 @@
+.sidebar-menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 60px;
+	font-size: 20px;
+	font-weight: 500;
+	height: 100vh;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.3s;
+    transition: border-bottom 7s ease;
+    color: black;
+    
+}
+.sidebar-menu > *{
+	margin-top: 20px;
+	text-decoration: none;
+	color: black;
+	
+}
+.sidebar-menu a{
+	color: black;
+	font-size: 30px;
+}
+.close-tag{
+	
+	width: 390px;
+	height: 80px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+
+}
+.tag-close{
+	font-size: 30px;
+}
+.sidebar-menu :hover{
+	padding-bottom: 5px;
+	border-bottom: 3px solid #2F4F4F;
+
+}

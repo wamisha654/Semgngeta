@@ -1,0 +1,96 @@
+.contact{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ 
+}
+.contact-video{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+}
+.contact-h{
+  font-size: 30px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 200px;
+  color: white;
+}
+.contact h1{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.contact-p{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-p p{
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
+.contact-p section{
+  font-size: 25px;
+}
+@media screen and (max-width: 1300px){
+ .contact-h{
+    padding-left: 50px;
+  }
+  .contact h1{
+  font-size: 74px;
+}
+.contact-p p{
+ font-size: 33px;
+ color: black;
+}
+.contact-p section{
+  font-size: 29px;
+  text-align: center;
+}
+
+
+}
+@media screen and (max-width: 1110px){
+  .contact-h{
+    padding-left: 50px;
+  }
+  .contact h1{
+  font-size: 70px;
+}
+.contact-p p{
+ font-size: 27px;
+ color: black;
+}
+.contact-p section{
+  font-size: 22px;
+  text-align: center;
+}
+}
+@media screen and (max-width: 810px){
+  .contact-h{
+    padding-left: 10px;
+  }
+  .contact h1{
+  font-size: 40px;
+}
+.contact-p p{
+ font-size: 20px;
+ color: black;
+}
+.contact-p section{
+  font-size: 15px;
+  text-align: center;
+}
+}
