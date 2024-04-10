@@ -7,7 +7,7 @@ import { MdClose } from "react-icons/md";
 
 const Sidebar = ({showSidebar}) =>{
 	return(
-     <div >
+     <div className = "sidebar">
         <div className = "close-tag">
         	<MdClose className = "tag-close" onClick = {showSidebar}/>
         </div>

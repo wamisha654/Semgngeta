@@ -63,7 +63,7 @@
 }
 .second-nav-menu {
 	background-color: white;
-	width: 100%;
+	width: 100vh;
 	height: 100%;
   color: black;
   position: fixed;
@@ -79,4 +79,10 @@
 transition: 350ms;
 }
 
+}
+@media screen and (max-width: 390px){
+	.second-nav-menu{
+		height: 100vh;
+		width: 100%;
+	}
 }

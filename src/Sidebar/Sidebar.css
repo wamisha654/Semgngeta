@@ -39,6 +39,10 @@
 
 }
 @media screen and (max-width: 390px){
+	.sidebar{
+		height: 100vh;
+		width: 100%;
+	}
 	.sidebar-menu a{
 		font-size: 20px;
 	}
@@ -47,6 +51,6 @@
     text-decoration: none;
 	}
 	.tag-close{
-	font-size: 35px;
+	 font-size: 35px;
     }
 }
