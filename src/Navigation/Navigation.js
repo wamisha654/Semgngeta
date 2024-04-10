@@ -17,6 +17,7 @@ const Navigation = () =>{
              </div>
              <nav className = {sidebar? 'second-nav-menu active' : 'second-nav-menu'}>
                <Sidebar showSidebar={showSidebar}/>
+             
              </nav>
           </div>
       	</div> 
