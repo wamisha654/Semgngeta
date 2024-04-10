@@ -18,9 +18,7 @@ const Home = () =>{
       <Link to = "/portfolio"><button>Explore</button></Link>
       <button>Contact</button>
     </div>   
-       <video autoPlay loop muted playsInline type="video/mp4" className="back-video">
-         <source src={vid} width = "100%" height = "100vh"/>
-       </video>
+       
      <div className="container">
          <a href="https://www.instagram.com/semagngeta?igsh=dGRqaHZxMG5xdnhz"><FiInstagram /></a>
          <a href="https://www.facebook.com/SemagngetaA"><FaFacebookF /></a>

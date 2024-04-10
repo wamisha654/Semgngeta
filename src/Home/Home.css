@@ -6,6 +6,7 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ background-color: pink;
 
 }
 .content{
@@ -29,15 +30,7 @@
   font-style: normal;
 }
 
-.back-video{
- position: absolute;
- z-index: -1;
- margin:0;
- padding: 0;
- object-fit: cover;
- height: 100%;
- width: 100%;
-}
+
 .front-butt{
   display: flex;
   justify-content: space-between;
