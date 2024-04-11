@@ -78,6 +78,9 @@ button{
     width: 100%;
     min-height: 600px;
   }
+  .back-video{
+    height: 100%;
+  }
  .content h1{
   font-size: 30px;
  }
