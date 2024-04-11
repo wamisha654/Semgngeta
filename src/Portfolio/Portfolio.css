@@ -58,9 +58,11 @@
 @media screen and (max-width: 1300px){
  .trailer-lijes{
 		background-image: url("llijesp.jpg");
+		height: 60px;
 	}
  .trailer-liya{
 		background-image: url("lliya.jpg");
+		height: 60px;
 	}	
 
   .wanaw button{
@@ -78,6 +80,7 @@
 	}
 	.trailer-liya{
 		background-image: url("lliya.jpg");
+		height: 60px;
 	}
 	.wanaw button{
 	 width: 8rem;
@@ -98,5 +101,6 @@
 }
 .trailer-lijes{
 		background-image: url("llijesp.jpg");
+		height: 60px;
 	}
 }
