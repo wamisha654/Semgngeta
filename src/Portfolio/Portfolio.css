@@ -3,7 +3,7 @@
  width: 100%;
 }
 .trailer-liya{
- height: 100vh;
+ height: 1000px;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -19,6 +19,7 @@
 	width: 45%;
 	margin: 5rem;
 	padding-top: 15rem;
+	
 }
 .wanaw h2{
 	font-size: 50px;
@@ -30,7 +31,7 @@
 	font-size: 17px;
 }
 .trailer-lijes{
-	height: 100vh;
+	height: 100%;
 	background-image: url("lijesp.jpg");
 	display: flex;
     flex-direction: column;

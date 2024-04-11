@@ -20,15 +20,7 @@ const Portfolio = () =>{
           </a>
         </div>
         </div> 
-        <div className="trailer-lijes">
-        <div className = "wanaw">
-          <h2> ልጄስ - Lijes</h2>
-          <p>This is the teaser trailer for a 42 episodes TV series I created for Canal+, titled, "Lijes" (translated as: Where is my child). </p>
-          <button>
-            Watch Trailer
-          </button>
-        </div>
-        </div>     
+          
         <List />      
       </div>
 		)
