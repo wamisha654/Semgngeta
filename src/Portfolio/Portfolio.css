@@ -45,9 +45,11 @@
 	}
 	.trailer-liya{
 		background-image: url("lliya.jpg");
+		height: 600px;
 	}
 	.trailer-lijes{
 		background-image: url("llijesp.jpg");
+		height: 600px;
 	}
 	.wanaw button{
 	 width: 10rem;
@@ -58,15 +60,15 @@
 @media screen and (max-width: 1300px){
  .trailer-lijes{
 		background-image: url("llijesp.jpg");
-		height: 60px;
+		height: 600px;
 	}
  .trailer-liya{
 		background-image: url("lliya.jpg");
-		height: 60px;
+		height: 600px;
 	}	
 
   .wanaw button{
-	 width: 10rem;
+	 width: 100rem;
 	 height: 90px;
 	 }	
 
@@ -80,7 +82,7 @@
 	}
 	.trailer-liya{
 		background-image: url("lliya.jpg");
-		height: 60px;
+		height: 600px;
 	}
 	.wanaw button{
 	 width: 8rem;
@@ -101,6 +103,6 @@
 }
 .trailer-lijes{
 		background-image: url("llijesp.jpg");
-		height: 60px;
+		height: 600px;
 	}
 }
