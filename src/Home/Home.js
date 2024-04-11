@@ -16,7 +16,7 @@ const Home = () =>{
      </div>
     <div className = "front-butt">
       <Link to = "/portfolio"><button>Explore</button></Link>
-      <button>Contact</button>
+      <Link to = "/contact"><button>Contact</button></Link>
     </div>   
        <video autoPlay loop muted playsInline type="video/mp4" className="back-video">
          <source src={vid} />

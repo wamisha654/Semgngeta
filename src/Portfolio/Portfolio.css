@@ -31,7 +31,7 @@
 	font-size: 17px;
 }
 .trailer-lijes{
-	height: 100%;
+	height: 1200px;
 	background-image: url("lijesp.jpg");
 	display: flex;
     flex-direction: column;
