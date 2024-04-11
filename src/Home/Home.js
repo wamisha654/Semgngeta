@@ -21,7 +21,7 @@ const Home = () =>{
        <video autoPlay loop muted playsInline type="video/mp4" className="back-video">
          <source src={vid} />
        </video>
-     <div className="container">
+     <div className="containers">
          <a href="https://www.instagram.com/semagngeta?igsh=dGRqaHZxMG5xdnhz"><FiInstagram /></a>
          <a href="https://www.facebook.com/SemagngetaA"><FaFacebookF /></a>
          <a href="https://www.linkedin.com/in/semagngeta"><FaLinkedin /></a>

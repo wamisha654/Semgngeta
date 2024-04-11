@@ -56,19 +56,19 @@ button{
   font-style: normal;
   
 }
-.container {
-  position: absolute;
+.containers {
+  padding-top: 300px;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 30px;
+  
   font-size: 30px;
   
 }
-.container > * {
-  margin: 0 10px; /* Adjust spacing between icons */
+.containers > * {
+  margin-left:10px; /* Adjust spacing between icons */
   color: white;
 }
 
@@ -78,9 +78,7 @@ button{
     width: 100%;
     min-height: 600px;
   }
-  .back-video{
-    height: 100%;
-  }
+
  .content h1{
   font-size: 30px;
  }
