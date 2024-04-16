@@ -1,26 +1,41 @@
 .about{
   color: white;
   display: flex;
-  justify-content: flex-end;
-  background-color: black;
+  width: 100%;
+   background-color: black;
   
 }
 .about img{
-	height: 50vw;
-	width: 45vw;
+ 
+ width: 50%;
+ min-width: 1000px;
 }
 .about-txt{
 	
-	
-	width: 50%;
-	max-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 35px;
-	background-color: black;
+	
 }
 .about-txt p{
  font-size: 22px;
+}
+@media screen and (max-width: 1512px) {
+
+    .about{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  
+  
+}
+.about img{
+ 
+ width: 100%;
+ min-width: 1000px;
+}
 }

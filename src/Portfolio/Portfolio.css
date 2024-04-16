@@ -53,6 +53,7 @@
 @media screen and (min-width: 1025px) and (min-width: 1708px) {
   .trailer-liya{
   	height: 1100px;
+  	min-height: 1100px;
   }
   .trailer-lijes{
   	height: 1100px;
