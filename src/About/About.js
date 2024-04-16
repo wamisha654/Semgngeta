@@ -1,13 +1,15 @@
 import React from 'react'
 import './About.css'
 import List from '../Contact/List.js';
+import pic from './pikture.jpg'
 
 const About = () =>{
 	return(
 	 <div>
 	 	<div className = "about">
+      <img src = {pic} />
       <div className="about-txt">
-          <div className="abt-img"></div>
+        <div className="abt-img"></div>
       	<h1>“Director’s Bio”</h1>
       	<p>Semagngeta Aychiluhem is an award-winning auto-didactic writer, producer, and director from 
           Addis Abeba, Ethiopia with over 15 years of experience in the film industry. His passion lies in 
