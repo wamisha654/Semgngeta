@@ -1,41 +1,133 @@
 .about{
-  color: white;
-  display: flex;
-  width: 100%;
-   background-color: black;
   
-}
-.about img{
- 
- width: 50%;
- min-width: 1000px;
-}
-.about-txt{
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 35px;
-	
-}
-.about-txt p{
- font-size: 22px;
-}
-@media screen and (max-width: 1512px) {
-
-    .about{
-  color: white;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
   background-color: black;
-  
+}
+.about h3{
+  font-size: 40px;
+  font-style: oblique;
+  color: #20B2AA;
   
 }
-.about img{
- 
- width: 100%;
- min-width: 1000px;
+.about-container{
+  
+  max-width: 90rem;
+  display: flex;
+  height: auto;
+
+
+}
+.about-main{
+  display: flex;
+  height: auto;
+  
+  margin: 200px 0px 300px 0px;
+}
+.about-container p{
+
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 0px 15px 30px 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 10px 50px 50px 50px ;
+  color: white;
+
+}
+.title-div{
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 18px;
+}
+@media screen and (max-width: 1400px){
+	.about-container p{
+    
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 1110px){
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  img{
+    width: 500px;
+    height: 550px;
+  }
+  .about-container p{
+    font-size: 18px;
+    font-style: italic;
+    margin: 15px;
+    color: white;
+  }
+  .about h3{
+  font-size: 20px;
+  
+  color: #20B2AA;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+  
+}
+}
+@media screen and (max-width: 810px){
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  img{
+    width: 450px;
+    height: 500px;
+  }
+  .about-container p{
+    font-size: 18px;
+    font-style: italic;
+    
+    color: white;
+  }
+  .about h3{
+  font-size: 20px;
+  
+  color: #20B2AA;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+  
+}
+}
+@media screen and (max-width: 810px){
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  img{
+    width: 100%;
+    height: 500px;
+  }
+  .about-container p{
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+  }
+  .about h3{
+  font-size: 20px;
+  
+  color: #20B2AA;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+  
 }
 }
