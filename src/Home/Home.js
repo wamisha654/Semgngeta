@@ -12,7 +12,7 @@ const Home = () =>{
     <div className="home">
      <div className="content">
       <h1>SEMAGNGETA AYCHILUHEM</h1>
-      <h2>DIRECTOR | PRODUCER | WRITER</h2>
+      <h2>WRITER | DIRECTOR | PRODUCER</h2>
      </div>
     <div className = "front-butt">
       <Link to = "/portfolio"><button>Explore</button></Link>
@@ -22,10 +22,10 @@ const Home = () =>{
          <source src={vid} />
        </video>
      <div className="container">
-         <a href=""><FaVimeoV /></a>
-         <a href="https://www.instagram.com/semagngeta?igsh=dGRqaHZxMG5xdnhz"><FiInstagram /></a>
-         <a href="https://www.facebook.com/SemagngetaA"><FaFacebookF /></a>
-         <a href="https://www.linkedin.com/in/semagngeta"><FaLinkedin /></a>
+         <a href="https://vimeo.com/semagngeta" target="_blank"><FaVimeoV /></a>
+         <a href="https://www.instagram.com/semagngeta?igsh=dGRqaHZxMG5xdnhz" target="_blank"><FiInstagram /></a>
+         <a href="https://www.facebook.com/SemagngetaA" target="_blank"><FaFacebookF /></a>
+         <a href="https://www.linkedin.com/in/semagngeta" target="_blank"><FaLinkedin /></a>
          
       </div>  
     </div>

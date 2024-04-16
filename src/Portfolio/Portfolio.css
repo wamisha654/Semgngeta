@@ -18,17 +18,21 @@
 	color: white;
 	width: 45%;
 	margin: 5rem;
-	padding-top: 15rem;
+
 	
 }
 .wanaw h2{
+
 	font-size: 50px;
-	font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .wanaw p{
 	font-size: 17px;
+	font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .trailer-lijes{
 	height: 1200px;
@@ -39,7 +43,106 @@
     background-size: cover;
     color: black;
 }
-@media screen and (max-width: 1110px){
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .wanaw h2{
+		font-size: 40px;
+		
+		
+	}
+	.trailer-liya{
+		background-image: url("liges.JPG");
+		
+	}
+	.wanaw button{
+	 width: 9rem;
+	 height: 70px;
+	 }
+	.wanaw{
+	height: 100%;
+	width: 550px;
+	padding: 20px;
+	margin: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+
+}
+.wanaw p{
+	font-size: 18px;
+}
+.trailer-lijes{
+		background-image: url("llijesp.jpg");
+		
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .wanaw h2{
+		font-size: 40px;
+		
+		
+	}
+	.trailer-liya{
+		background-image: url("liges.JPG");
+		
+	}
+	.wanaw button{
+	 width: 8rem;
+	 height: 70px;
+	 }
+	.wanaw{
+	height: 100%;
+	width: 550px;
+	padding: 20px;
+	margin: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.wanaw p{
+	font-size: 18px;
+}
+.trailer-lijes{
+		background-image: url("llijesp.jpg");
+		
+	}
+}
+@media screen and (max-width: 768px) {
+    .wanaw h2{
+		font-size: 35px;
+		margin-bottom: 0px;
+		
+		
+	}
+	.trailer-liya{
+		background-image: url("lliya.jpg");
+		height: 600px;
+	}
+	.wanaw button{
+	 width: 8rem;
+	 height: 50px;
+	 }
+	.wanaw{
+	height: 100%;
+	width: 350px;
+	padding: 20px;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+.wanaw p{
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.trailer-lijes{
+		background-image: url("llijesp.jpg");
+		height: 600px;
+	}
+}
+/*@media screen and (max-width: 1110px){
  .wanaw h2{
 		font-size: 40px;
 	}
@@ -106,3 +209,4 @@
 		height: 600px;
 	}
 }
+*/

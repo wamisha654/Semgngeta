@@ -13,9 +13,9 @@ const Sidebar = ({showSidebar}) =>{
         </div>
      	
      	<div className = "sidebar-menu">
+            <Link to = "/" onClick = {showSidebar}>Home</Link>
      		   <Link to = "/portfolio" onClick = {showSidebar}>Portfolio</Link>
             <Link to = "/about" onClick = {showSidebar}>About</Link>
-            <Link to = "/" onClick = {showSidebar}>News</Link>
             <Link to = "/contact" onClick = {showSidebar}>Contact</Link>
      	</div>
         
