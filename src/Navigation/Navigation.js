@@ -1,9 +1,14 @@
 import React, {useState} from 'react';
+import { useLocation } from 'react-router-dom';
 import './Navigation.css'
 import {Link} from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
 import Sidebar from '../Sidebar/Sidebar.js'
 const Navigation = () =>{
+  const location = useLocation();
+  if (location.pathname === '/') {
+    return null; // don't render navigation on the home page
+  }
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar)

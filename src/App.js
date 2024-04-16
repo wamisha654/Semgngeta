@@ -13,7 +13,6 @@ function App() {
   return (
     <Router>
       <div>
-         
         <Navigation /> 
         <Routes>
           <Route path="/" element={<Home />} />
