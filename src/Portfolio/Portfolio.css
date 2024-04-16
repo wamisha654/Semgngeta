@@ -1,16 +1,19 @@
 .Portfolio{
- height: 100%;
- width: 100%;
+
  
 }
 .trailer-liya{
- height: 1000px;
+ height: 700px;
+ max-height: 1200px;
  width: 100%;
  display: flex;
  flex-direction: column;
  justify-content: center;
- background-image: url("liya.jpg");
- background-size: cover;
+ background: url("liya.jpg");
+  	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .wanaw button{
 	width: 20%;
@@ -36,9 +39,10 @@
   font-weight: 500;
   font-style: normal;
 }
+
 .trailer-lijes{
-	height: 1200px;
-	width: 100%;
+	height: 700px;
+    width: 100%;
 	background-image: url("lijesp.jpg");
 	display: flex;
     flex-direction: column;
@@ -46,16 +50,21 @@
     background-size: cover;
     color: black;
 }
+@media screen and (min-width: 1025px) and (min-width: 1708px) {
+  .trailer-liya{
+  	height: 1100px;
+  }
+  .trailer-lijes{
+  	height: 1100px;
+  }
+}
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     .wanaw h2{
 		font-size: 40px;
 		
 		
 	}
-	.trailer-liya{
-		background-image: url("liges.JPG");
-		
-	}
+	
 	.wanaw button{
 	 width: 9rem;
 	 height: 70px;
@@ -76,7 +85,7 @@
 }
 .trailer-lijes{
 		background-image: url("llijesp.jpg");
-		
+		height: 1000px;
 	}
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -87,6 +96,7 @@
 	}
 	.trailer-liya{
 		background-image: url("liges.JPG");
+		height: 1000px;
 		
 	}
 	.wanaw button{
@@ -108,6 +118,7 @@
 }
 .trailer-lijes{
 		background-image: url("llijesp.jpg");
+		height: 1000px;
 		
 	}
 }
