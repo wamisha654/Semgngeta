@@ -22,8 +22,8 @@ const Portfolio = () =>{
         </div> 
         <div className="trailer-lijes">
         <div className = "wanaw">
-          <h2> ልጄስ | Lijes</h2>
-          <p>This is the teaser trailer for a 42 episodes TV series I created for Canal+, titled, "Lijes" (translated as: Where is my child). </p>
+          <h2> ልጄስ? | Lijes</h2>
+          <p>Gezahegn, an illiterate but clever farmer, travels to the puzzling town of Dibab in search of his lost son. Driven by a father's undying love, he quests to uncover the truth behind his missing son's disappearance. </p>
           <button>
             Watch Trailer
           </button>

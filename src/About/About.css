@@ -70,7 +70,7 @@
     
   }
   img{
-    width: 423px;
+    width: 343px;
     height: 500px;
   }
   .about-container p{
@@ -106,7 +106,7 @@
 }
 @media screen and (max-width: 420px){
 img{
-    width: 350px;
+    width: 280px;
     height: 420px;
   }
 }
