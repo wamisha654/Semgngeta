@@ -1,6 +1,5 @@
 .contact{
  width: 100%;
- height: 100vh;
  display: flex;
  flex-direction: column;
  justify-content: flex-start;
@@ -10,14 +9,14 @@
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 50%;
+  height: 70vh;
   padding: 0;
   margin: 0;
   object-fit: cover;
 }
 .contact-h{
   font-size: 30px;
-  height: 50%;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -31,7 +30,7 @@
  
 }
 .contact-p{
-  height: 50%;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,9 +38,9 @@
 }
 .contact-p a{
   margin-top: 10px;
-  color: darkseagreen;
+  color: black;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 .contact-p section{
@@ -55,11 +54,10 @@
   font-size: 74px;
 }
 .contact-p a{
- font-size: 33px;
- color: darkseagreen;
+ font-size: 23px;
 }
 .contact-p section{
-  font-size: 29px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -73,8 +71,8 @@
   font-size: 70px;
 }
 .contact-p a{
- font-size: 27px;
- color: darkseagreen;
+ font-size: 25px;
+ 
 }
 .contact-p section{
   font-size: 22px;
@@ -82,8 +80,15 @@
 }
 }
 @media screen and (max-width: 810px){
+  .contact-video{
+    height: 50vh;
+  }
   .contact-h{
     padding-left: 10px;
+    height: 50vh;
+  }
+  .contact-p{
+    height: 40vh;
   }
   .contact h1{
   font-size: 40px;
@@ -93,7 +98,9 @@
  color: darkseagreen;
 }
 .contact-p section{
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
   text-align: center;
+  padding: 10px;
 }
 }
