@@ -6,20 +6,11 @@
   align-items: center;
   background-color: black;
 }
-.about h3{
-  font-size: 40px;
-  font-style: oblique;
-  color: #20B2AA;
-  
-}
 .about-container{
   
   max-width: 90rem;
   display: flex;
   height: auto;
-
-
-
 }
 .about-main{
   display: flex;
@@ -35,11 +26,6 @@
   margin: 10px 50px 50px 50px ;
   color: white;
 
-}
-.title-div{
-  text-align: center;
-  margin-top: -40px;
-  margin-bottom: 18px;
 }
 @media screen and (max-width: 1400px){
 	.about-container p{
@@ -69,22 +55,13 @@
     margin: 15px;
     color: white;
   }
-  .about h3{
-  font-size: 20px;
-  
-  color: #20B2AA;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 5px;
 
-  
-}
 }
 @media screen and (max-width: 810px){
 	.about-main{
   display: flex;
   height: auto;
-  margin: 90px 0px 100px 0px;
+  margin: 90px 0px 60px 0px;
 }
   .about-container{
     display: flex;
@@ -100,16 +77,6 @@
     font-size: 18px;
     color: white;
   }
-  .about h3{
-  font-size: 20px;
-  
-  color: #20B2AA;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 5px;
-
-  
-}
 }
 @media screen and (max-width: 810px){
   .about-container{
@@ -123,7 +90,7 @@
     height: 500px;
   }
   .about-container p{
-    font-size: 19px;
+    font-size: 16px;
     color: white;
   }
   .about h3{
@@ -136,4 +103,10 @@
 
   
 }
+}
+@media screen and (max-width: 420px){
+img{
+    width: 350px;
+    height: 420px;
+  }
 }
