@@ -11,7 +11,7 @@ const About = () =>{
      <div className = "about-main">
       
       <div className = "about-container">
-         <img src={pic} className="about-img" width = "620" height = "760"/>
+         <img src={pic} className="about-img" width = "640" height = "760"/>
          <p>Semagngeta Aychiluhem is an award-winning auto-didactic writer, producer, and director from 
           Addis Abeba, Ethiopia with over 15 years of experience in the film industry. His passion lies in 
           storytelling that sparks meaningful conversations and show different perspective. Above all, he 
@@ -29,7 +29,7 @@ const About = () =>{
            conference and also won the first edition of NEFTI competition</p>
       </div>
      </div>
-      
+     <List /> 
      
     </div>
     
