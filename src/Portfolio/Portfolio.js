@@ -14,7 +14,7 @@ const Portfolio = () =>{
           <p>This is the first trailer for a TV Series I've been working on for the past two years.
 
            After years of training her body, mind, and soul, Liya, a stubborn and brave young girl, comes back to her hometown to punish those who wronged her. </p>
-          <a href={vid}><button>
+          <a href="https://vimeo.com/658078904"><button>
             Watch Trailer
           </button>
           </a>
