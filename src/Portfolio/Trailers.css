@@ -1,0 +1,18 @@
+.main-vimeo iframe{
+	height: 100%;
+	width: 100%;
+
+}
+.main-vimeo{
+	background-color: black;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.close {
+	color: white;
+	padding: 20px;
+	font-size: 35px;
+	cursor: pointer;
+}

@@ -49,13 +49,21 @@
     background-size: cover;
     color: black;
 }
-.liyas-vimeo {
-	
-	background-color: pink;
-	
+.display{
+  
+  
+  color: black;
+  position: fixed;
+  top: 0;
+  left: -100%; /* initially hide off-screen */
+  transition: left 0.35s ease; /* smooth transition */
 }
-.liyas-vimeo iframe{
-	
+
+.display.active {
+  right: 0; /* slide in from left when active */
+  transition: 350ms;
+  left: 0;
+transition: 350ms;
 }
 
 @media screen and (min-width: 1025px) and (min-width: 1708px) {

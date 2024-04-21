@@ -1,31 +1,21 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import './Portfolio.css';
+import Liya from './Liya.js';
+import Lijes from './Lijes.js';
 import Navigation from '../Navigation/Navigation.js';
 import List from '../Contact/List.js';
-import vid from './video.mp4';
-import VimeoPlayer from '@vimeo/player';
 
 const Portfolio = () => {
-  const [showVimeo, setShowVimeo] = useState(false);
-  const vimeoRef = useRef(null);
+  const [showLiya, setShowLiya] = useState(false);
+  const [showLijes, setShowLijes] = useState(false);
 
-  const handleVimeoClick = () => {
-    setShowVimeo(true);
+  const handleLiyaClick = () => {
+    setShowLiya(!showLiya);
   };
 
-  useEffect(() => {
-    if (showVimeo) {
-      const player = new VimeoPlayer(vimeoRef.current, {
-        url: 'https://vimeo.com/658078904',
-        autoplay: true,
-      });
-
-      return () => {
-        // Clean up the player instance when component unmounts
-        player.destroy().catch((error) => console.error('Error destroying player', error));
-      };
-    }
-  }, [showVimeo]);
+  const handleLijesClick = () => {
+    setShowLijes(!showLijes);
+  };
 
   return (
     <div className="Portfolio">
@@ -37,12 +27,16 @@ const Portfolio = () => {
             This is the first trailer for a TV Series I've been working on for the past two years.
             After years of training her body, mind, and soul, Liya, a stubborn and brave young girl, comes back to her hometown to punish those who wronged her.
           </p>
-          <button onClick={handleVimeoClick}>
+          <button onClick={handleLiyaClick}>
             Watch Trailer
           </button>
-          {showVimeo && <div ref={vimeoRef}></div>}
         </div>
       </div>
+      
+      <div className = {showLiya? 'display active' : 'display'}>
+        {showLiya && <Liya handleLiyaClick = {handleLiyaClick} />}
+      </div>
+      
       <div className="trailer-lijes">
         <div className="wanaw">
           <h2> ልጄስ? | Lijes</h2>
@@ -50,13 +44,16 @@ const Portfolio = () => {
             This is the teaser trailer for a 42 episodes TV series I created for Canal+, titled, "Lijes" (translated as: Where is my child).
             An illiterate but clever farmer, Gezahegn, travels to a mysterious town called Dibab in search of his missing Son.
           </p>
-          <a href="https://vimeo.com/921436172">
-            <button>
-              Watch Trailer
-            </button>
-          </a>
+          <button onClick={handleLijesClick}>
+            Watch Trailer
+          </button>
         </div>
       </div>
+      
+      <div className = {showLijes? 'display active' : 'display'}>
+        {showLijes && <Lijes handleLijesClick = {handleLijesClick} />}
+      </div>
+      
       <List />
     </div>
   );
