@@ -9,12 +9,12 @@
               <MdClose className = "close" onClick = {handleLijesClick }/>
             </div>
             
-           <iframe src="https://player.vimeo.com/video/921436172?h=696941adc5"  
-           frameborder="0" 
-           allow="autoplay; fullscreen; picture-in-picture" 
-           allowfullscreen
-           ></iframe>
-       </div>
+              <iframe src="https://player.vimeo.com/video/927493581?h=dbf5283da2" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+              </iframe>
+
+          </div>
 
       )
   }
