@@ -29,7 +29,7 @@ const Navigation = () =>{
       	<nav className = "nav-menu">
       		<Link to = "/portfolio">Portfolio</Link>
       		<Link to = "/about">About</Link>
-      		<Link to = "/news">News</Link>
+      		<Link to = "/">News</Link>
       		<Link to = "/contact">Contact</Link>
       	</nav>
       </div>
