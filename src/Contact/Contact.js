@@ -17,7 +17,7 @@ const Contact = () =>{
 	     </div>
 	     <div className = "contact-p">
 	       <section>Please feel free to contact to discuss any Filmmaking, TV, Commercial, Corporate commissions or collaboration projects.</section>
-	       <a href="mailto:semagngeta@guzofilms.com">semagngeta@guzofilms.com</a>
+	       <a href="mailto: info@guzofilms.com"> info@guzofilms.com</a>
 	       <a href="tel:+251911854742">+251 91 185 4742</a>
 	     </div>
 	     </div>
