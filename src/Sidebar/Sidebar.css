@@ -8,6 +8,7 @@
 	transition: 0.3s;
     transition: border-bottom 7s ease;
     
+    
 }
 .sidebar-menu > *{
  margin-top: 80px;
@@ -26,9 +27,6 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	
-
-
 }
 .tag-close{
 	font-size: 45px;

@@ -1,28 +1,40 @@
 .Portfolio{
-
- 
+	margin: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
+
 .trailer-liya{
- height: 900px;
- width: 100%;
- display: flex;
- flex-direction: column;
- justify-content: center;
- background: url("liya.jpg");
-  	-webkit-background-size: cover;
+	background-color: pink;
+	height: 100vh;
+	background: url("liya.jpg");
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.wanaw button{
-	width: 20%;
-	margin-top: 3rem;
+.trailer-lijes{
+	background-color: blueviolet;
+	height: 100vh;
+	background: url("lijesp.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
 }
 .wanaw{
-	color: white;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 	width: 45%;
-	margin: 5rem;
-
+	justify-content: flex-end;
+	gap: 10px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	color: white;
+	
 	
 }
 .wanaw h2{
@@ -37,17 +49,14 @@
 	font-family: "Mukta", sans-serif;
   font-weight: 500;
   font-style: normal;
+  /*background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  padding: 5px;
+  border-radius: 5px;*/
 }
-
-.trailer-lijes{
-	height: 800px;
-    width: 100%;
-	background-image: url("lijesp.jpg");
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    color: black;
+.wanaw button{
+	width: 30%;
+	margin-bottom: 3rem;
 }
 .display{
   
@@ -65,46 +74,6 @@
   left: 0;
 transition: 350ms;
 }
-
-@media screen and (min-width: 1025px) and (min-width: 1708px) {
-  .trailer-liya{
-  	height: 900px;
-  	
-  }
-  .trailer-lijes{
-  	height: 900px;
-  }
-}
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-    .wanaw h2{
-		font-size: 40px;
-		
-		
-	}
-	
-	.wanaw button{
-	 width: 9rem;
-	 height: 70px;
-	 }
-	.wanaw{
-	height: 100%;
-	width: 550px;
-	padding: 20px;
-	margin: 3rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	
-
-}
-.wanaw p{
-	font-size: 18px;
-}
-.trailer-lijes{
-		background-image: url("llijesp.jpg");
-		height: 1000px;
-	}
-}
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .wanaw h2{
 		font-size: 40px;
@@ -112,45 +81,26 @@ transition: 350ms;
 		
 	}
 	.trailer-liya{
-		background-image: url("liges.JPG");
-		height: 1000px;
-		
+		background-image: url("liges.JPG");		
 	}
 	.wanaw button{
 	 width: 8rem;
-	 height: 70px;
 	 }
-	.wanaw{
-	height: 100%;
-	width: 550px;
-	padding: 20px;
-	margin: 3rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 
-}
 .wanaw p{
 	font-size: 18px;
 }
 .trailer-lijes{
 		background-image: url("llijesp.jpg");
-		height: 1000px;
-		
 	}
 }
 @media screen and (max-width: 768px) {
     .wanaw h2{
 		font-size: 35px;
-		margin-bottom: 0px;
-		
-		
+		margin-bottom: 0px;		
 	}
 	.trailer-liya{
-		background-image: url("lliya.jpg");
-		height: 700px;
-
-		
+		background-image: url("lliya.jpg");	
 	}
 	.wanaw button{
 	 width: 8rem;
@@ -172,74 +122,5 @@ transition: 350ms;
 }
 .trailer-lijes{
 		background-image: url("llijesp.jpg");
-		height: 700px;
 	}
 }
-/*@media screen and (max-width: 1110px){
- .wanaw h2{
-		font-size: 40px;
-	}
-	.trailer-liya{
-		background-image: url("lliya.jpg");
-		height: 600px;
-	}
-	.trailer-lijes{
-		background-image: url("llijesp.jpg");
-		height: 600px;
-	}
-	.wanaw button{
-	 width: 10rem;
-	 height: 90px;
-	 }
-
-}
-@media screen and (max-width: 1300px){
- .trailer-lijes{
-		background-image: url("llijesp.jpg");
-		height: 600px;
-	}
- .trailer-liya{
-		background-image: url("lliya.jpg");
-		height: 600px;
-	}	
-
-  .wanaw button{
-	 width: 100rem;
-	 height: 90px;
-	 }	
-
-
-}
-@media screen and (max-width: 810px){
-
-	.wanaw h2{
-		font-size: 30px;
-		color: #48D1CC;
-	}
-	.trailer-liya{
-		background-image: url("lliya.jpg");
-		height: 600px;
-	}
-	.wanaw button{
-	 width: 8rem;
-	 height: 70px;
-	 }
-	.wanaw{
-	height: 100%;
-	width: 350px;
-	padding: 20px;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-
-}
-.wanaw p{
-	font-size: 14px;
-}
-.trailer-lijes{
-		background-image: url("llijesp.jpg");
-		height: 600px;
-	}
-}
-*/

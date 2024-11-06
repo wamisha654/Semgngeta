@@ -14,10 +14,7 @@ const Home = () =>{
       <h1>SEMAGNGETA AYCHILUHEM</h1>
       <h2>WRITER | DIRECTOR | PRODUCER</h2>
      </div>
-    <div className = "front-butt">
-      <Link to = "/portfolio"><button>Explore</button></Link>
-      <Link to = "/contact"><button>Contact</button></Link>
-    </div>   
+       
        <video autoPlay loop muted playsInline type="video/mp4" className="back-video">
          <source src={vid} />
        </video>
@@ -33,3 +30,9 @@ const Home = () =>{
 		)
 }
 export default Home;
+
+// <div className = "front-butt">
+//       <Link to = "/portfolio"><button>Explore</button></Link>
+//       <Link to = "/contact"><button>Contact</button></Link>
+//       <Link to = "/about"><button>About</button></Link>
+//     </div>
