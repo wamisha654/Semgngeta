@@ -7,7 +7,7 @@
 	cursor: pointer;
 	transition: 0.3s;
     transition: border-bottom 7s ease;
-    
+
     
 }
 .sidebar-menu > *{
@@ -16,9 +16,10 @@
 	
 }
 .sidebar-menu a{
-	color: black;
+	color: white;
 	font-size: 25px;
-	font-weight: 500;	
+	font-weight: 700;	
+    font-family: sans-serif;
 }
 .close-tag{
 	
