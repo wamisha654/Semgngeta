@@ -35,7 +35,32 @@
    text-decoration: none;
 }
 .bars{
-	display: none;
+	font-size: 30px;
+	margin-left: 20px;
+	color: white;
+}
+.barx.hidden {
+  display: none; /* or visibility: hidden; */
+}
+
+.second-nav-menu {
+/*    background: rgba(255, 255, 255, 0.3); */
+/*    backdrop-filter: blur(60px); */
+    width: 40%;
+    height: auto;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: -100%; /* initially hide off-screen */
+    transition: left 0.35s ease; /* smooth transition */
+}
+
+
+.second-nav-menu.active {
+  right: 0; /* slide in from left when active */
+  transition: 350ms;
+  left: 0;
+  transition: 350ms;
 }
 
 @media screen and (max-width: 1110px){
@@ -61,7 +86,25 @@
 .title{
 	display: none;
 }
-.second-nav-menu {
+
+
+}
+@media screen and (max-width: 390px){
+	.sidebar{
+		height: 100vh;
+		width: 100%;
+	}
+	.sidebar-menu a{
+		font-size: 20px;
+	}
+	.sidebar-menu > *{
+     margin-top: 50px;
+    text-decoration: none;
+	}
+	.tag-close{
+	 font-size: 35px;
+    }
+    .second-nav-menu {
     background: rgba(255, 255, 255, 0.3); /* semi-transparent background for blur */
     backdrop-filter: blur(60px); /* adjust blur strength */
     width: 100%;
@@ -80,21 +123,4 @@
   left: 0;
   transition: 350ms;
 }
-
-}
-@media screen and (max-width: 390px){
-	.sidebar{
-		height: 100vh;
-		width: 100%;
-	}
-	.sidebar-menu a{
-		font-size: 20px;
-	}
-	.sidebar-menu > *{
-     margin-top: 50px;
-    text-decoration: none;
-	}
-	.tag-close{
-	 font-size: 35px;
-    }
 }

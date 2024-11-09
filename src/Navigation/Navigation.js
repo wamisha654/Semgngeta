@@ -15,9 +15,10 @@ const Navigation = () =>{
 	return(
       <div className = "Navigation">
         <div className = "nav">
-      		<Link className = "title" to = "/">SEMAGNGETA</Link>
+      		 
+
           <div className = "bars">
-             <div>
+             <div className={`barx ${sidebar ? 'hidden' : ''}`}>
                 <FaBars onClick = {showSidebar} />
              </div>
              <nav className = {sidebar? 'second-nav-menu active' : 'second-nav-menu'}>
@@ -26,13 +27,17 @@ const Navigation = () =>{
              </nav>
           </div>
       	</div> 
-      	<nav className = "nav-menu">
-      		<Link to = "/portfolio">Portfolio</Link>
-      		<Link to = "/about">About</Link>
-      		{/*<Link to = "/">News</Link>*/}
-      		<Link to = "/contact">Contact</Link>
-      	</nav>
+      	
+
       </div>
 		);
 }
 export default Navigation;
+// <Link className = "title" to = "/">SEMAGNGETA</Link>
+// <nav className = "nav-menu">
+//           <Link to = "/portfolio">Portfolio</Link>
+//           <Link to = "/about">About</Link>
+//           {/*<Link to = "/">News</Link>*/}
+//           <Link to = "/contact">Contact</Link>
+//         </nav>
+// home at line 18 and nav at line 26
