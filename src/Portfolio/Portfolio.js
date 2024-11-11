@@ -19,7 +19,6 @@ const Portfolio = () => {
 
   return (
     <div className="Portfolio">
-      <Navigation />
       <div className="trailer-liya">
         <div className="wanaw">
           <h2>ሊያ | Liya</h2>

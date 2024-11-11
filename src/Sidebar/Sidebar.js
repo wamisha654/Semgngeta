@@ -8,10 +8,11 @@ import { MdClose } from "react-icons/md";
 const Sidebar = ({showSidebar}) =>{
 	return(
      <div className = "sidebar">
-       
+        <div className = "close-tag">
+        	<MdClose className = "tag-close" onClick = {showSidebar}/>
+        </div>
      	
      	<div className = "sidebar-menu">
-           <MdClose className = "tag-close" onClick = {showSidebar}/>
             <Link to = "/" onClick = {showSidebar}>Home</Link>
      		   <Link to = "/portfolio" onClick = {showSidebar}>Portfolio</Link>
             <Link to = "/about" onClick = {showSidebar}>About</Link>
