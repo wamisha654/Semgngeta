@@ -77,9 +77,11 @@
   right: 0; /* slide in from left when active */
   transition: 350ms;
   left: 0;
-transition: 350ms;
+  transition: 350ms;
 }
-
+.barss.hidden {
+  visibility: hidden;
+}
 }
 @media screen and (max-width: 390px){
 	.sidebar{

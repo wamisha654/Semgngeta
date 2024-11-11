@@ -16,8 +16,8 @@ const Navigation = () =>{
       <div className = "Navigation">
         <div className = "nav">
       		<Link className = "title" to = "/">SEMAGNGETA</Link>
-          <div className = "bars">
-             <div>
+          <div className="bars">
+             <div className = {`barss ${sidebar ? 'hidden' : ''}`}>
                 <FaBars onClick = {showSidebar} />
              </div>
              <nav className = {sidebar? 'second-nav-menu active' : 'second-nav-menu'}>

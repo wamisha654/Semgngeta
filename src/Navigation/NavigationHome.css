@@ -1,5 +1,5 @@
 .home-navigation{
-	position: absolute;
+	
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
@@ -13,31 +13,32 @@
 
 }
 .third-nav-menu {
-	padding: 10px;
-	margin-top: 8px;
-	width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  width: 100%;
   color: black;
   position: fixed;
   top: 0;
   left: -100%; /* initially hide off-screen */
   transition: left 0.35s ease; /* smooth transition */
+
 }
 
 .third-nav-menu.active {
-	display: flex;
-	align-items: center;
-	gap: 30px;
-  right: 0; /* slide in from left when active */
-  transition: 350ms;
+  display: flex;
+  align-items: center;
+  gap: 30px;
   left: 0;
- transition: 350ms;
- transition: 0.3s;
-    transition: border-bottom 7s ease;
+ 
 }
+
+/* Remove redundant transition properties */
+
 .third-nav-menu.active a{
 	text-decoration: none;
 	font-size: 20px;
 	color: white;
+  transition: color 0.3s ease;
 }
 .third-nav-menu.active a:hover{
   padding-bottom: 5px;
@@ -72,6 +73,7 @@
 		flex-direction: column;
 		gap: 40px;
 		background-color: rgba(0, 0, 0, 0.8);
+		
 	}
 	.third-nav-menu.active a{
 		font-size: 25px;
