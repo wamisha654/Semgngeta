@@ -1,31 +1,37 @@
 import React, {useState} from 'react';
-import { MdClose } from "react-icons/md";
+import { useLocation } from 'react-router-dom';
 import './Navigation.css'
 import {Link} from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
+import Sidebar from '../Sidebar/Sidebar.js'
 const Navigation = () =>{
-  
+  const location = useLocation();
+  if (location.pathname === '/') {
+    return null; // don't render navigation on the home page
+  }
   const [sidebar, setSidebar] = useState(false);
 
-   const showSidebar = () => setSidebar(!sidebar);
-   const closeSidebar = () => setSidebar(false);
+  const showSidebar = () => setSidebar(!sidebar)
 	return(
       <div className = "Navigation">
-        <div className = "nav">     		
-          <div >
-             <div className = {`bars ${sidebar ? 'hidden' : ''}`}>
+        <div className = "nav">
+      		<Link className = "title" to = "/">SEMAGNGETA</Link>
+          <div className = "bars">
+             <div>
                 <FaBars onClick = {showSidebar} />
              </div>
              <nav className = {sidebar? 'second-nav-menu active' : 'second-nav-menu'}>
-               <MdClose className = "tag-close" onClick = {showSidebar}/>
-               <Link to = "/" onClick = {closeSidebar}>Home</Link>
-               <Link to = "/portfolio" onClick = {closeSidebar}>Portfolio</Link>
-               <Link to = "/about" onClick = {closeSidebar}>About</Link>
-               <Link to = "/contact" onClick = {closeSidebar}>Contact</Link>             
+               <Sidebar showSidebar={showSidebar}/>
+             
              </nav>
           </div>
       	</div> 
-      	
+      	<nav className = "nav-menu">
+      		<Link to = "/portfolio">Portfolio</Link>
+      		<Link to = "/about">About</Link>
+      		{/*<Link to = "/">News</Link>*/}
+      		<Link to = "/contact">Contact</Link>
+      	</nav>
       </div>
 		);
 }

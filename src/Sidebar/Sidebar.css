@@ -15,7 +15,7 @@
 	
 }
 .sidebar-menu a{
-	color: black;
+	color: white;
 	font-size: 25px;
 	font-weight: 500;	
 }
@@ -30,7 +30,9 @@
 
 
 }
-
+.tag-close{
+	font-size: 45px;
+}
 .sidebar-menu :hover{
 	padding-bottom: 5px;
 	border-bottom: 3px solid #2F4F4F;

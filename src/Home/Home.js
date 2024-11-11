@@ -6,10 +6,12 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaVimeoV } from "react-icons/fa";
 import {Link} from 'react-router-dom';
+import HomeNav from '../Navigation/NavigationHome.js'
 const Home = () =>{
 	return(
       
     <div className="home">
+    <HomeNav className="home-nav-display"/>
      <div className="content">
       <h1>SEMAGNGETA AYCHILUHEM</h1>
       <h2>WRITER | DIRECTOR | PRODUCER</h2>
