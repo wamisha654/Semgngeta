@@ -41,8 +41,12 @@
   color: black;
   font-size: 22px;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: underline;
 }
+.contact-p a:hover {
+  color: green;
+}
+
 .contact-p section{
   font-size: 25px;
 }
