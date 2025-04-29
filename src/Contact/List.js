@@ -16,7 +16,7 @@ const List = () =>{
          <a href="https://www.linkedin.com/in/semagngeta" target="_blank"><FaLinkedin /></a>
          <a href="mailto:semagngeta@guzofilms.com" target="_blank"><TfiEmail /></a>
         </div> 
-        <p>© Semgngeta Aychiluhem Filmmaker</p> 
+        <p>© Semgngeta Aychiluhem</p> 
      </div>
 
 	);
