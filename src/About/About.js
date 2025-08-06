@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import List from '../Contact/List.js';
-import pic from './pikture.jpg';
+import pic from './kiya.jpg';
 
 const About = () => {
     return (

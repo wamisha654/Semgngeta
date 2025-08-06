@@ -60,6 +60,11 @@
 
 }
 @media screen and (max-width: 810px){
+  .about-img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+  }
 	.about-main{
   display: flex;
   height: auto;

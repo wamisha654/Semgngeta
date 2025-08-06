@@ -4,6 +4,7 @@ import Liya from './Liya.js';
 import Lijes from './Lijes.js';
 import Navigation from '../Navigation/Navigation.js';
 import List from '../Contact/List.js';
+import {Link} from 'react-router-dom';
 
 const Portfolio = () => {
   const [showLiya, setShowLiya] = useState(false);
@@ -21,14 +22,20 @@ const Portfolio = () => {
     <div className="Portfolio">
       <div className="trailer-liya">
         <div className="wanaw">
-          <h2>ሊያ | Liya</h2>
+       
+          <Link to="/liya" className="see-more-button">
+            <h2 onClick={handleLiyaClick}> ሊያ | Liya</h2>
+            
+          </Link>
           <p>
             This is the first trailer for a TV Series I've been working on for the past two years.
             After years of training her body, mind, and soul, Liya, a stubborn and brave young girl, comes back to her hometown to punish those who wronged her.
           </p>
-          <button onClick={handleLiyaClick}>
-            Watch Trailer
+          <Link to="/liya" className="see-more-button">
+          <button>
+            See more
           </button>
+        </Link>
         </div>
       </div>
       
@@ -38,14 +45,23 @@ const Portfolio = () => {
       
       <div className="trailer-lijes">
         <div className="wanaw">
-          <h2> ልጄስ? | Lijes</h2>
+        <Link to="/lijes" className="see-more-button">
+            <h2 onClick={handleLijesClick}> ልጄስ? | Lijes</h2>
+            
+          </Link>
+          
           <p>
             This is the teaser trailer for a 42 episodes TV series I created for Canal+, titled, "Lijes" (translated as: Where is my child).
             An illiterate but clever farmer, Gezahegn, travels to a mysterious town called Dibab in search of his missing Son.
           </p>
-          <button onClick={handleLijesClick}>
-            Watch Trailer
-          </button>
+          
+          <Link to="/lijes" className="see-more-button">
+          <button>
+            See more
+            </button>
+          </Link>
+        
+
         </div>
       </div>
       

@@ -34,6 +34,7 @@
 	padding-left: 50px;
 	padding-bottom: 50px;
 	color: white;
+	cursor: pointer;
 	
 	
 }
@@ -73,6 +74,10 @@
   transition: 350ms;
   left: 0;
 transition: 350ms;
+}
+.see-more-button{
+	text-decoration: none;
+	color: inherit;
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .wanaw h2{
